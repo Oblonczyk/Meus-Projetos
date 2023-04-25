@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: lighter;
+            background-color: beige;
+            margin: 0px;
+        }
+
+        nav{
+            background-color: gray;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.553);
+
+        }
+
+        nav>a{
+            margin: 20px;
+        }
+
+        nav>a:hover{
+            color: rgba(103, 15, 15, 0.547);
+        }
+
+        main{
+            background-color: rgb(209, 209, 185);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.601);
+        }
+
+        h1,h2{
+            text-align: center;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        p#editor{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 20px 0px;
+            padding: 3px;
+        }
+
+        footer>p{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 4px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: lightgray;
+            border-radius: 60px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <a href="#">Home</a>
+    <a href="#">Portifolio</a>
+    <a href="#">Info</a>
+    <a href="#">Blog</a>
+    <a href="#">Contatos</a>
+    </nav>
+</header>
+    <header>
+        <h1>Meu Site</h1>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Rei Pelé</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa cumque praesentium sit odio totam, veniam labore quam repellendus vero quis consequuntur cupiditate nulla voluptatum explicabo laboriosam, earum saepe? Quo, aut.</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magnam similique at laudantium culpa officiis, quidem, placeat doloribus deserunt officia voluptas veniam voluptatibus nostrum sed quis quod! Minus, deserunt labore!</p>
+                <aside>
+                    <p id="editor">artigo escrito por Silvano Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Oblonczyk</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
